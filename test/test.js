@@ -22,7 +22,7 @@ describe('gulp-simplefont64', function() {
 			stream.on('data', function(newFile) {
 				assert.equal(String(newFile.contents), fs.readFileSync(path.join(__dirname, '/fixtures/myfont.css'), 'utf8'));
 				done();
-			})
+			});
 
 			stream.write(input);
 

@@ -11,7 +11,13 @@
     "url": "https://github.com/joshblack/gulp-simplefont64"
   },
   "keywords": [
-    "gulpplugin", "encode", "base64", "font", "css", "ttf", "otf"
+    "gulpplugin",
+    "encode",
+    "base64",
+    "font",
+    "css",
+    "ttf",
+    "otf"
   ],
   "author": {
     "name": "Josh Black <joshuatblack@ufl.edu>",
@@ -19,16 +25,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "gulp-util": "~2.2.14",
-    "through2": "~0.4.1",
-    "cheerio": "~0.13.1",
-    "mime": "~1.2.1"
+    "cheerio": "^1.0.0-rc.1",
+    "gulp-util": "^3.0.8",
+    "mime": "^1.3.6",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
-    "mocha": "~1.17.1"
-  },
-  "engines": {
-    "node": ">=0.10"
+    "mocha": "^3.4.2"
   },
   "readmeFilename": "README.md",
   "bugs": {
